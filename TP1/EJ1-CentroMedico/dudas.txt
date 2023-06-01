@@ -1,0 +1,39 @@
+Las validaciones debería hacerlas en el mismo SET o fuera de ellas?
+- Para los horarios de trabajo del medico por ej... Debo hacer la logica del set dentro de él o este solo debe guardar el valor
+con lógica me refiero a que imprima lo que debe enviarse y otorgar feedback en caso de erroes.
+
+Que seria lista pcientes,que en realidad lo que hace solo es manejar la DB?
+
+Para el problema de la serializacion de JSON. Es mejor crear los __json__ o utilizzar
+jsonpickle?
+
+___________________________________
+Estructura de Metodos.
+Al tener mis bases de Datos bien claras.
+Deberia construir todos mis metodos alli? (eso hice) 
+Tiene sentido para mi ya que son la bases de datos las que modificare
+
+La opcion 2 sería que cada objeto tenga sus metodos. Y desde la base de 
+datos acceda al objeto. Guarde el objeto de la DB que me interese en una variable
+de su respectiva clase. Desde alli acceder a su metodo. Guardarlo nuevamente en DB
+
+Ventajas: Codigo mas sostenible: si restrucutrara los objetos 
+solo deberia modificar su metodo y no el de la DB
+
+Desventajas: Flujo mucho mas engorroso. 
+Ademas para que realizaría modificaciones sin guardarlas en DB?
+... no estaria mal tampoco.
+
+________________________________________
+Para el tema Paciente en Turno => Medico(lista_turnos) => ListaMedicos_DB 
+
+Deberia enviar el objeto o solo una referencia a él? Ejemplo su dni
+
+(hice referencia)
+Ventajas Referencia:
+Menos memoria gastada inncecesariamente ya que ya tengo los datos de 
+paciente en su respectiva DB
+
+Desventajas: Proceso de muestreo del paciente mas engorroso.
+Si yo quiero que el medico vea a que paciente esta por recibir
+deberé ir a buscarle a su DB mediante la referencia.

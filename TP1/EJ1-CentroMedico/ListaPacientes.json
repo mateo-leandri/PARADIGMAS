@@ -1,0 +1,96 @@
+[
+   {
+      "_nombre": "Jose",
+      "_sexo": "masc",
+      "_edad": 34,
+      "_dni": 10000,
+      "_obra_social": "Red de Seguros",
+      "_list_historia_clinica": [
+         {
+            "_fecha": "01/06/23",
+            "_sintomas": "cansancio general, fatiga",
+            "_diagnostico": ""
+         },
+         {
+            "_fecha": "01/06/23",
+            "_sintomas": "cansancio general, fatiga",
+            "_diagnostico": ""
+         }
+      ]
+   },
+   {
+      "_nombre": "Pepe",
+      "_sexo": "masc",
+      "_edad": 27,
+      "_dni": 10001,
+      "_obra_social": "Asunt",
+      "_list_historia_clinica": []
+   },
+   {
+      "_nombre": "Javier",
+      "_sexo": "masc",
+      "_edad": 23,
+      "_dni": 10002,
+      "_obra_social": "Osde",
+      "_list_historia_clinica": [
+         {
+            "_fecha": "01/06/23",
+            "_sintomas": "Dolor",
+            "_diagnostico": ""
+         },
+         {
+            "_fecha": "01/06/23",
+            "_sintomas": "presion altaa",
+            "_diagnostico": ""
+         },
+         {
+            "_fecha": "01/06/23",
+            "_sintomas": "dolor de",
+            "_diagnostico": ""
+         }
+      ]
+   },
+   {
+      "_nombre": "Josefina",
+      "_sexo": "fem",
+      "_edad": 29,
+      "_dni": 10003,
+      "_obra_social": "",
+      "_list_historia_clinica": [
+         {
+            "_fecha": "01/06/23",
+            "_sintomas": "Mareos",
+            "_diagnostico": ""
+         },
+         {
+            "_fecha": "01/06/23",
+            "_sintomas": "Mareos",
+            "_diagnostico": ""
+         },
+         {
+            "_fecha": "01/06/23",
+            "_sintomas": "Palpitaciones",
+            "_diagnostico": ""
+         },
+         {
+            "_fecha": "01/06/23",
+            "_sintomas": "DOLOR",
+            "_diagnostico": ""
+         }
+      ]
+   },
+   {
+      "_nombre": "Roberto",
+      "_sexo": "masc",
+      "_edad": 22,
+      "_dni": 10005,
+      "_obra_social": "",
+      "_list_historia_clinica": [
+         {
+            "_fecha": "01/06/23",
+            "_sintomas": "Dolor Muscular",
+            "_diagnostico": ""
+         }
+      ]
+   }
+]

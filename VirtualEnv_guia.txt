@@ -1,0 +1,12 @@
+Pasos del Entorno Virtual Python
+
+1. Me posiciono en la Carpeta dle pryecto. cmd:
+> pip install virtual env
+> virtualenv env		<= (env es un nombre estandar, permitira saber que sera un gitignore
+> cd env/Scripts/activate
+> exit
+
+=> Ya podemos instalar paquetes en el entrono virtual 
+
+> pip freeze
+> pip > requeriments.txt 		<= Crear doc de texto de Librerias 

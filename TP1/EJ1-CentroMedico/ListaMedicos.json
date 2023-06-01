@@ -1,0 +1,201 @@
+[
+   {
+      "_nombre": "Juarez Emilio",
+      "_sexo": "masc",
+      "_edad": 54,
+      "_dni": 10000,
+      "_especialidad": "Pediatra",
+      "_precio_consulta": 1500,
+      "_horarios": {
+         "Lunes": [
+            8,
+            17
+         ],
+         "Martes": [
+            8,
+            17
+         ],
+         "Miercoles": [
+            8,
+            17
+         ],
+         "Jueves": [
+            8,
+            17
+         ],
+         "Viernes": [
+            8,
+            17
+         ],
+         "Sabado": [
+            8,
+            12
+         ],
+         "Domingo": [
+            null,
+            null
+         ]
+      },
+      "_consultorio": {
+         "_ubicacion": "SEDE CENTRAL | Corrientes 460",
+         "_numero": 1
+      },
+      "_lista_turnos": [
+         {
+            "_turno": 1,
+            "_paciente": 10000
+         }
+      ]
+   },
+   {
+      "_nombre": "Lobo Eugenio",
+      "_sexo": "masc",
+      "_edad": 48,
+      "_dni": 10001,
+      "_especialidad": "Cardiologo",
+      "_precio_consulta": 2300,
+      "_horarios": {
+         "Lunes": [
+            15,
+            20
+         ],
+         "Martes": [
+            15,
+            20
+         ],
+         "Miercoles": [
+            15,
+            20
+         ],
+         "Jueves": [
+            15,
+            20
+         ],
+         "Viernes": [
+            15,
+            20
+         ],
+         "Sabado": [
+            15,
+            20
+         ],
+         "Domingo": [
+            null,
+            null
+         ]
+      },
+      "_consultorio": {
+         "_ubicacion": "SEDE CENTRAL | Corrientes 460",
+         "_numero": 2
+      },
+      "_lista_turnos": [
+         {
+            "_turno": "15",
+            "_paciente": "10002"
+         },
+         {
+            "_turno": "12",
+            "_paciente": "10003"
+         }
+      ]
+   },
+   {
+      "_nombre": "Novillo Jose",
+      "_sexo": "masc",
+      "_edad": 43,
+      "_dni": 10002,
+      "_especialidad": "Cirujano",
+      "_precio_consulta": 1002,
+      "_horarios": {
+         "Lunes": [
+            10,
+            18
+         ],
+         "Martes": [
+            10,
+            18
+         ],
+         "Miercoles": [
+            10,
+            18
+         ],
+         "Jueves": [
+            10,
+            18
+         ],
+         "Viernes": [
+            10,
+            18
+         ],
+         "Sabado": [
+            10,
+            18
+         ],
+         "Domingo": [
+            null,
+            null
+         ]
+      },
+      "_consultorio": {
+         "_ubicacion": "SEDE YERBA BUENA | Av Aconquija 941",
+         "_numero": 3
+      },
+      "_lista_turnos": []
+   },
+   {
+      "_nombre": "Saavedra Jaime Raul",
+      "_sexo": "masc",
+      "_edad": 30,
+      "_dni": 10003,
+      "_especialidad": "Lider Medico",
+      "_precio_consulta": 3500,
+      "_horarios": {
+         "Lunes": [
+            7,
+            16
+         ],
+         "Martes": [
+            7,
+            16
+         ],
+         "Miercoles": [
+            7,
+            16
+         ],
+         "Jueves": [
+            7,
+            16
+         ],
+         "Viernes": [
+            7,
+            16
+         ],
+         "Sabado": [
+            7,
+            16
+         ],
+         "Domingo": [
+            null,
+            null
+         ]
+      },
+      "_consultorio": {
+         "_ubicacion": "SEDE YERBA BUENA | Av Aconquija 941",
+         "_numero": 1
+      },
+      "_lista_turnos": [
+         {
+            "_turno": 1,
+            "_paciente": 10000
+         },
+         {
+            "_turno": 2,
+            "_paciente": 10002
+         },
+         {
+            "_turno": "17",
+            "_paciente": "10005"
+         }
+      ]
+   }
+]
