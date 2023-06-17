@@ -1,0 +1,7 @@
+CONVERSION DE .ui(xml) -> .py
+
+cd Ruta
+pyuic5 -x mi_app.ui -o mi_app.py
+
+cd Ruta Imagemes
+pyrcc5 -o source.py source.qrc

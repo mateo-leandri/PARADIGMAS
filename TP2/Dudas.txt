@@ -1,0 +1,6 @@
+DUDAS:Problemas con imports. Modulos y paquetes.
+
+Por que al llamar desde main debo cambiar
+ from Imagenes import source    ->  import Vista.Imagenes en UI.py
+
+Funcionamiento de PYQT
